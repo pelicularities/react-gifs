@@ -6,10 +6,7 @@ import App from './components/app.jsx';
 
 const Hello = ({ name }) => {
   return (
-    <div>
-      Hello,
-      {name}
-    </div>
+    'not rendered'
   );
 };
 
