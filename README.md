@@ -1,3 +1,10 @@
+# react-gifs
+This is me learning React by following Le Wagon's React-Redux track.
+
+This repository is for the Giphy Search App challenge.
+
+Boilerplate details below...
+
 # react-boilerplate
 
 Simple react starter with the following config:
