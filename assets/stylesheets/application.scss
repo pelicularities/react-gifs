@@ -1,8 +1,9 @@
 body {
   font-family: Helvetica;
+  width: 100%;
 }
 
-#root {
+div#root > div {
   display: flex;
   height: 100vh;
 }
@@ -24,11 +25,10 @@ body {
   }
 
   &:before {
-    content: '\F002';
+    content: '🔎';
     position: absolute;
     top: 35px;
     left: 60px;
-    font-family: FontAwesome;
     font-size: 2.6em;
     opacity: 0.4;
   }
