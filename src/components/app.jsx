@@ -15,6 +15,12 @@ class App extends Component {
     this.search('golden retriever');
   }
 
+  updateSelectedGif = (id) => {
+    this.setState({
+      selectedGifId: id
+    });
+  }
+
   search = (query) => {
     giphy('C0uzVlzNa2NMSapf91FyEJkdJ5BSBw6V').search({
       q: query,
@@ -43,7 +49,7 @@ class App extends Component {
           </div>
         </div>
         <div className="right-scene">
-          <GifList gifs={this.state.gifs} />
+          <GifList gifs={this.state.gifs} updateSelectedGif={this.updateSelectedGif} />
         </div>
       </div>
     );
